@@ -1,0 +1,29 @@
+
+div>h6 {
+    display: inline-block;
+    margin-right: 1% ;
+}
+div>h1 {
+    display: inline-block;
+}
+div>p {
+    display: inline-block;
+}
+
+div.image-content img{
+    height: 600px;
+    width: 424px;
+    border-radius: 3px;
+}
+
+
+
+
+nav.navbar {
+    margin: 0 7% 0 7%;
+    border-radius: 3px;
+}
+
+.component-content{
+    margin: 3% 8% 3% 8%;
+}
