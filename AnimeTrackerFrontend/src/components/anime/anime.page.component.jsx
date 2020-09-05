@@ -29,9 +29,12 @@ function AnimePage(props) {
     return (
 
         <div className="container">
-            <AnimeInfo animeData={data} />
+            <div className="mb-4">
+                <AnimeInfo animeData={data} />
+            </div>
 
-            <div className="row">
+
+            <div className="row mb-4">
                 <div className="col"> <h2>Ratings and Reviews</h2></div>
             </div>
             <div className="row">

@@ -21,8 +21,10 @@ function Anime() {
     return(
         <div className="component-content">
             <h1>Anime List</h1>
+            <div className="">
+                <AnimeCard animeData={data}/>
+            </div>
             
-            <AnimeCard animeData={data}/>
         </div>
     )
 }

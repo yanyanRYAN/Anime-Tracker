@@ -23,10 +23,12 @@ function AnimeCard(props) {
     // }
 
 
+
+
     return(
-           <div className="row">
+           <div className="card-deck">
                {props.animeData.animes.map(anime => (
-                   <div key={anime._id} className="col-sm-3">
+                   <div key={anime._id} className=" col-md-3 ">
                    {
                    console.log(anime)}
                        <Card cardData={anime} />
